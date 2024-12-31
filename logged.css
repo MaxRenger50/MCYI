@@ -3,7 +3,6 @@
     padding: 0;
 
 }
-
 .main{
     width: 100%;
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(2.jpg);
@@ -30,7 +29,7 @@
     font-family: Arial;
     padding-left: 20px;
     float: left;
-    padding-top: 10px;
+    padding-top: 40px;
 }
 
 
@@ -38,6 +37,7 @@
     width: 400px;
     float: left;
     height: 70px;
+    padding-top: 30px;
 }
 
 ul{
@@ -79,14 +79,13 @@ ul li a:hover{
     background: transparent;
     border: 1px solid rgb(30, 255, 0);
     margin-top: 13px;
-    color: white;
+    color:white;
     border-right: none;
     font-size: 16px;
     float: left;
     padding: 10px;
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
-
 }
 
 .btn{
@@ -178,113 +177,25 @@ ul li a:hover{
 
 }
 
-.form{
-    width: 250px;
-    height: 380px;
-    background: linear-gradient(to top, rgba(26, 25, 25, 0.8)50%,rgba(26,25,25,0.8)50%);
-    position: absolute;
-    top: -20px;
-    left: 870px;
-    border-radius: 10px;
-    padding: 25px;
-}
-
-.form h2{
-    width: 220px;
-    font-family: sans-serif;
-    text-align: center;
-    color: rgb(30, 255, 0);
-    font-size: 22px;
-    background-color: white;
-    border-radius: 10px;
-    margin: 2px;
-    padding: 8px;
-}
-
-.form input{
-    width: 240px;
-    height: 35px;
-    background: transparent;
-    border-bottom: 1px solid rgb(30, 255, 0);
-    border-top: none;
-    border-right: none;
-    border-left: none;
-    color: white;
-    font-size: 15px;
-    letter-spacing: 1px;
-    margin-top: 30px;
-    font-family: sans-serif;
-}
-
-.form input:focus{
-    outline: none;
-}
-
 ::placeholder{
     color: white;
     font-family: Arial;
 }
 
-.btnn{
-    width: 240px;
-    height: 40px;
-    background: rgb(30, 255, 0);
-    border: none;
-    margin-top: 30px;
-    font-size: 18px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: .4s ease;
+.image{
+    padding-top: 10px;
+    padding-left: 100px;
 }
 
-.btnn a{
+.image img{
+    height: 30px;
+    width: 30px;
+    float: left;
+    border-radius: 50%;
+    border: 3px solid rgb(30, 255, 0);
+}
+
+.image a{
+    color: white;
     text-decoration: none;
-    color: black;
-    transition: .3s ease;
-}
-
-.btnn:hover{
-    background-color: white;
-
-}
-
-.form .link{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 17px;
-    padding-top: 20px;
-    text-align: center;
-}
-
-.link a{
-    text-decoration: none;
-    color: rgb(30, 255, 0);
-}
-.liw{
-    padding-top: 15px;
-    padding-bottom: 10px;
-    text-align: center;
-}
-
-.icons a{
-    text-decoration: none;
-    color:white
-
-}
-
-.icons ion-icon{
-    color: black;
-    font-size: 30px;
-    width: 220px;
-    font-family: sans-serif;
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.096);
-    border-radius: 10px;
-    margin: 2px;
-    padding:7px;
-    padding-bottom: 1px;
-    transition: 0.3s ease;
-}
-
-.icons ion-icon:hover{
-    color: rgb(30, 255, 0);
 }
